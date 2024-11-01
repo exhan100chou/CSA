@@ -8,7 +8,7 @@ class APSK:
         self.r2 = 2  # Radius of the outer ring
         self.r3 = 3  # Radius of the outer ring
         self.constellation = self.build_constellation()
-        self.p = self.calculate_p()  *1e-12#*5e-13#* 1e-12
+        self.p = self.calculate_p() 
         self.delta = self.compute_noise(PSNR)
    
     def calculate_p(self):
