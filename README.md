@@ -16,7 +16,7 @@ The code can be run on the datasets [EuroSAT](https://www.tensorflow.org/dataset
 
 ### Training the CSA model 
  `python train2.py`
-### Evaluating the trained CSA model
+### Evaluating the trained CSA model or federated learning
  `python3 evaluate_fl.py --mod apsk --dataset EuroSAT --latent_d 32 --save_root ./results-fl --name EuroSAT-num_e16-latent_d32-modapsk-psnr12.1-lam0.05`
  
 ## Block diagram of CSA LEO
